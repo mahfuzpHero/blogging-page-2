@@ -23,6 +23,12 @@ $(document).ready(function () {
         $nav.toggleClass('collapse');
     })
 //my changes//
+document.getElementById("dark").addEventListener('click', function(){
+    document.body.style.background = 'black';
+})
+document.getElementById("white").addEventListener('click', function(){
+    document.body.style.background = 'white';
+})
 $(".bangladesh-btn").click(function(){
     $(".bangladesh-blog").slideToggle("slow");
   });
