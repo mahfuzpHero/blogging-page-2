@@ -29,7 +29,39 @@ html, body{
 }
 
 /*--------------my edits ---------------*/
-
+.dark-mood{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 50px;
+    place-content: center;
+    padding: 20px;
+}
+#dark{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#dark:hover{
+    background: white;
+    color: black;
+}
+#white{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#white:hover{
+    background: black;
+    color: white;
+}
 .login{
     font-family: var(--Livvic);
     font-size: 15px;
@@ -465,7 +497,7 @@ footer.footer{
 
 footer.footer .container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 400px 200px 250px;
 }
 
 footer.footer .container > div{
